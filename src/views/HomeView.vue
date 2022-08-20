@@ -6,13 +6,16 @@ import TheWelcome from '@/components/TheWelcome.vue'
   <main>
     <div class="content">
     <div class="title">
-      Conheca seus candidatos!
+      <h2>Conheca seus candidatos!</h2>
+      <br/>
+      <span>
       Apresenta informações detalhadas sobre todos os candidatos que pediram registro à Justiça Eleitoral 
       e sobre as suas contas eleitorais e as dos partidos políticos.
+      </span>
     </div>
 
     <div class="form-search">
-      Buscar candidato: 
+      <label>Buscar candidato:</label>
       <input type="text" /> 
       <button v-on:click="mostrarCandidatos = true">Buscar</button>
     </div>
@@ -69,15 +72,21 @@ export default {
 <style scoped>
 
   .content {
-    padding: 0 5% 5% 5%;
+    padding: 0 5% 3% 5%;
   }
 
   .title {
-
+    margin-bottom: 30px;
   }
 
-  .form-search {
+  .form-search input, button {
+    margin-left: 10px !important;
+  }
 
+  .form-search input {
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    width: 50%;
   }
 
   .candidates-table {
@@ -95,6 +104,29 @@ export default {
 
   .candidates-table td, th {
     padding: 0.5rem 0.5rem;
+  }
+
+  button {
+    background-color: #0d6efd;
+    color: white !important;
+    cursor: pointer;
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5;
+    display: inline-block;
+    padding: var(--bs-btn-padding-y) var(--bs-btn-padding-x);
+    font-family: var(--bs-btn-font-family);
+    font-size: var(--bs-btn-font-size);
+    font-weight: var(--bs-btn-font-weight);
+    line-height: var(--bs-btn-line-height);
+    color: var(--bs-btn-color);
+    text-align: center;
+    text-decoration: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
   }
 
   caption {
