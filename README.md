@@ -1,6 +1,6 @@
 # vote-certo
 
-This template should help get you started developing with Vue 3 in Vite.
+Projeto para matéria de UX do curso de pós graduação da UFSCar.
 
 ## Recommended IDE Setup
 
