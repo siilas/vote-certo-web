@@ -20,6 +20,10 @@ const router = createRouter({
       path: '/candidato-cola',
       name: 'candidato-cola',
       component: ColaView
+    },
+    {
+      path: "/:catchAll(.*)",
+      redirect: '/',
     }
   ]
 })

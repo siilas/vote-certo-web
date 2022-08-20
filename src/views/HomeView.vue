@@ -36,21 +36,27 @@ import TheWelcome from '@/components/TheWelcome.vue'
                 <td>Dep. Estadual</td>
                 <td>12345</td>
                 <td>UFSCar</td>
-                <td>Ver | Compartilhar</td>
+                <td>
+                  <span @click="goTo('/candidato')">Ver</span> | <span>Compartilhar</span> 
+                </td>
               </tr>
               <tr>
                 <td>João</td>
                 <td>Dep. Federal</td>
                 <td>1234</td>
                 <td>UFSCar</td>
-                <td>Ver | Compartilhar</td>
+                <td>
+                  <span @click="goTo('/candidato')">Ver</span> | <span>Compartilhar</span> 
+                </td>
               </tr>
               <tr>
                 <td>Juninho</td>
                 <td>Governador</td>
                 <td>12</td>
                 <td>UFSCar</td>
-                <td>Ver | Compartilhar</td>
+                <td>
+                  <span @click="goTo('/candidato')">Ver</span> | <span>Compartilhar</span> 
+                </td>
               </tr>
           </tbody>
       </table>
@@ -64,6 +70,11 @@ export default {
   data() {
     return {
       mostrarCandidatos: false
+    }
+  },
+  methods: {
+    goTo(route){
+      this.$router.push(route);
     }
   }
 };
