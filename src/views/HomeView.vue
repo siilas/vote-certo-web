@@ -6,7 +6,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
   <main>
     <div class="content">
     <div class="title">
-      <h2 tabindex="0">Conheca seus candidatos!</h2>
+      <h1 tabindex="0">Vote Certo! Conheça seus candidatos!</h1>
       <br/>
       <span tabindex="0">
       Apresentamos informações detalhadas sobre os candidatos e suas propostas e também te ajudamos a não esquecer 
@@ -28,7 +28,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
               <th>Cargo</th>
               <th>Número</th>
               <th>Partido</th>
-              <th>#</th>
+              <th>Ações</th>
           </thead>
           <tbody>
               <tr>
@@ -72,7 +72,7 @@ export default {
 <style scoped>
 
   .content {
-    padding: 0 5% 3% 5%;
+    padding: 3%;
   }
 
   .title {
@@ -91,6 +91,8 @@ export default {
 
   .candidates-table {
     width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
   }
 
   .candidates-table thead {

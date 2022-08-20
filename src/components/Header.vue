@@ -1,10 +1,10 @@
 <template>
     <header>
         <div>
-            <img  class="logo_principal" src="../assets/Logo.png"  />
+            <img  class="logo_principal" src="../assets/Logo.png"  alt="Logo Vote Certo" />
         </div>
         <div>
-            <img  class="icone_mala" src="../assets/icone2.png"  />
+            <img  class="icone_mala" src="../assets/icone2.png" alt="Ir para cola"  />
         </div>
 
 
