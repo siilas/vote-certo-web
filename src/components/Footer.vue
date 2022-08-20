@@ -15,6 +15,8 @@ export default {
 .footer {
     text-align: center;
     width: 100%;
+    background-color: #C7CBCD;
+    padding: 8px 0px;
 }
 
 </style>

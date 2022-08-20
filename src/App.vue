@@ -11,6 +11,11 @@ import Header from './components/Header.vue';
   <Footer></Footer>
 </template>
 
-<style scoped>
+<style>
+
+* {
+  padding: 0;
+  margin: 0;
+}
 
 </style>
