@@ -6,22 +6,22 @@ import TheWelcome from '@/components/TheWelcome.vue'
   <main>
     <div class="content">
     <div class="title">
-      <h2>Conheca seus candidatos!</h2>
+      <h2 tabindex="0">Conheca seus candidatos!</h2>
       <br/>
-      <span>
+      <span tabindex="0">
       Apresentamos informações detalhadas sobre os candidatos e suas propostas e também te ajudamos a não esquecer 
       em que vai votar, criando uma "colinha".
       </span>
     </div>
 
     <div class="form-search">
-      <label>Buscar candidato:</label>
-      <input type="text" /> 
+      <label tabindex="0">Buscar candidato:</label>
+      <input type="text" placeholder="Digite o nome do candidato, partido ou tema de proposta..." /> 
       <button v-on:click="mostrarCandidatos = true">Buscar</button>
     </div>
 
     <div>
-      <table class="candidates-table" v-if="mostrarCandidatos">
+      <table class="candidates-table" v-if="mostrarCandidatos" tabindex="0">
           <caption>Listagem de candidatos</caption>
           <thead>
               <th>Nome</th>
