@@ -14,6 +14,7 @@ import Header from './components/Header.vue';
 <style>
 
 * {
+  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }

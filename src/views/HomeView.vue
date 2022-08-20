@@ -4,20 +4,21 @@ import TheWelcome from '@/components/TheWelcome.vue'
 
 <template>
   <main>
-    <div>
+    <div class="content">
+    <div class="title">
       Conheca seus candidatos!
       Apresenta informações detalhadas sobre todos os candidatos que pediram registro à Justiça Eleitoral 
       e sobre as suas contas eleitorais e as dos partidos políticos.
     </div>
 
-    <div>
+    <div class="form-search">
       Buscar candidato: 
       <input type="text" /> 
       <button v-on:click="mostrarCandidatos = true">Buscar</button>
     </div>
 
     <div>
-      <table v-if="mostrarCandidatos">
+      <table class="candidates-table" v-if="mostrarCandidatos">
           <caption>Listagem de candidatos</caption>
           <thead>
               <th>Nome</th>
@@ -51,6 +52,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
           </tbody>
       </table>
     </div>
+    </div>
   </main>
 </template>
 
@@ -66,4 +68,40 @@ export default {
 
 <style scoped>
 
+  .content {
+    padding: 0 5% 5% 5%;
+  }
+
+  .title {
+
+  }
+
+  .form-search {
+
+  }
+
+  .candidates-table {
+    width: 100%;
+  }
+
+  .candidates-table thead {
+    color: black;
+    font-weight: bold;
+  }
+
+  .candidates-table tbody {
+    text-align: center;
+  }
+
+  .candidates-table td, th {
+    padding: 0.5rem 0.5rem;
+  }
+
+  caption {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    color: #6c757d;
+  }
 </style>
