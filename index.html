@@ -1,87 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-<body>
-<div class="container">
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Link</a></li>
-      <li><a href="#">Link</a></li>
-    </ul>
-    <button class="btn btn-danger navbar-btn">Button</button>
-  </div>
-</nav>
-  <h2>Selecione os filtros conforme sua vontade:</h2>
-  <p>Aqui você pode incluir um texto explicativo:</p>
-  <form>
-    <div class="form-group">
-      <label for="sel1">Nome</label>
-          <input type="name" class="form-control" id="pwd">
-
-      <label for="sel1">Cargo</label>
-      <select class="form-control" id="sel1">
-        <option>Presidente</option>
-        <option>Governador</option>
-        <option>Dep. Estadual</option>
-        <option>Dep. Federal</option>
-      </select>
-      <br>
-      <label for="sel2">O que quero ver?</label>
-      <select multiple class="form-control" id="sel2">
-        <option>Educaçao</option>
-        <option>Saúde</option>
-        <option>Cultura</option>
-        <option>...</option>
-        <option>...</option>
-      </select>
-    </div>
-      <a href="candidato.html" class="btn btn-default">Pesquisar</a>
-  </form>
-</div>
-
-<div class="container">
-  <h2>Lista de candidatos</h2>
-  <p>Coloque informações aqui:</p>            
-  <table>
-    <thead>
-      <tr>
-        <th>Foto</th>
-        <th>Nome</th>
-        <th>Cargo</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><img src="img_Teste.png" class="media-object" style="width:80px"></td>
-        <td>Doe</td>
-        <td>john@example.com</td>
-      </tr>
-      <tr>
-        <td><img src="img_Teste.png" class="media-object" style="width:80px"></td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td><img src="img_Teste.png" class="media-object" style="width:80px"></td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
