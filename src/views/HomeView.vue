@@ -6,7 +6,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
   <main>
     <div class="content">
     <div class="title">
-      <h1 tabindex="0">Vote Certo! Conheca seus candidatos!</h1>
+      <h1 tabindex="0">Vote Certo! Conheça seus candidatos!</h1>
       <br/>
       <span tabindex="0">
       Apresentamos informações detalhadas sobre os candidatos e suas propostas e também te ajudamos a não esquecer 
@@ -28,7 +28,7 @@ import TheWelcome from '@/components/TheWelcome.vue'
               <th>Cargo</th>
               <th>Número</th>
               <th>Partido</th>
-              <th>#</th>
+              <th>Ações</th>
           </thead>
           <tbody>
               <tr>
