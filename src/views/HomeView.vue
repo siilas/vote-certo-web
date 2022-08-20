@@ -9,8 +9,8 @@ import TheWelcome from '@/components/TheWelcome.vue'
       <h2>Conheca seus candidatos!</h2>
       <br/>
       <span>
-      Apresenta informações detalhadas sobre todos os candidatos que pediram registro à Justiça Eleitoral 
-      e sobre as suas contas eleitorais e as dos partidos políticos.
+      Apresentamos informações detalhadas sobre os candidatos e suas propostas e também te ajudamos a não esquecer 
+      em que vai votar, criando uma "colinha".
       </span>
     </div>
 
