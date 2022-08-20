@@ -1,5 +1,18 @@
 <template>
+
     <div class="main-div">
+        <div class="breadcrumb container">
+            <div class="row">
+                <div class="column">
+                    <span>Início / Candidato</span>
+                </div>
+            </div>
+        </div>
+
+        <h2>
+            Seus Candidatos
+        </h2>
+
         <div  class="card-size" style="border:1px solid red;">
             <img  class="img-size" src="../assets/cand1.png" /> 
             <div style="border:1px solid green;">
@@ -52,10 +65,11 @@ export default {
 }
 
 .main-div {
-    flex-direction: column;
+    /* flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+
 }
 
 .card-text {
