@@ -11,7 +11,7 @@
     <div class="candidato-info container">
       <div class="row">
         <div class="column">
-          <img src="../assets/foto_candidato.png" alt="candidato">
+          <img title="Candidato" src="../assets/foto_candidato.png" alt="candidato">
         </div>
         <div class="column">
           <p class="candidato-name"><b>Fulano</b></p>
@@ -78,16 +78,16 @@
         <div class="column">
           <div class="social-box">
             <div>
-              <img src="../assets/facebook.png" alt="facebook">
+              <img title="Facebook" src="../assets/facebook.png" alt="facebook">
             </div>
             <div>
-              <img src="../assets/instagram.png" alt="instagram">
+              <img title="Instagram" src="../assets/instagram.png" alt="instagram">
             </div>
             <div>
-              <img src="../assets/linkedIn.png" alt="linkedin">
+              <img title="Linkedin" src="../assets/linkedIn.png" alt="linkedin">
             </div>
             <div>
-              <img src="../assets/twitter.png" alt="twitter">
+              <img title="Twitter" src="../assets/twitter.png" alt="twitter">
             </div>
           </div>
         </div>

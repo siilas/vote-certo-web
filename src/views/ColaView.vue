@@ -15,27 +15,36 @@
 
         <div  class="card-size">
             <img  class="img-size" src="../assets/cand1.png" /> 
-            <div>
-                <p class="card-text">NOME1</p>
-                <p class="card-text">SENADOR</p>
-                <p class="card-text">123</p>
+            <div class="action">
+              <div>
+                  <p class="card-text">NOME1</p>
+                  <p class="card-text">SENADOR</p>
+                  <p class="card-text">123</p>
+              </div>
+              <button class="remove">Remover</button>
             </div>
         </div>
         
         <div class="card-size">
-            <img  class="img-size" src="../assets/cand2.png" />
-            <div>
-                <p class="card-text">NOME1</p>
-                <p class="card-text">SENADOR</p>
-                <p class="card-text">123</p>
+            <img class="img-size" src="../assets/cand2.png" />
+            <div class="action">
+              <div>
+                  <p class="card-text">NOME1</p>
+                  <p class="card-text">SENADOR</p>
+                  <p class="card-text">123</p>
+              </div>
+              <button class="remove">Remover</button>
             </div>
         </div>
         <div  class="card-size">
             <img  class="img-size" src="../assets/cand3.png" />
-            <div>
-                <p class="card-text">NOME1</p>
-                <p class="card-text">SENADOR</p>
-                <p class="card-text">123</p>
+            <div class="action">
+              <div>
+                  <p class="card-text">NOME1</p>
+                  <p class="card-text">SENADOR</p>
+                  <p class="card-text">123</p>
+              </div>
+              <button class="remove">Remover</button>
             </div>
         </div>
     </div>
@@ -51,6 +60,23 @@ export default {
 </script>
 
 <style scoped>
+
+.remove {
+  background-color: #FF9D9D
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 16px;
+}
+
+.action p {
+  text-align: left;
+  margin-bottom: 4px;
+}
 
 .img-size {
   height: 150px;

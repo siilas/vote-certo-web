@@ -1,10 +1,10 @@
 <template>
     <header>
         <div @click="goTo('/')">
-            <img  class="logo_principal" src="../assets/Logo.png"  alt="Logo Vote Certo" />
+            <img title="Logo" class="logo_principal" src="../assets/Logo.png"  alt="Logo Vote Certo" />
         </div>
         <div @click="goTo('/candidato-cola')" class="cola-box">
-            <img  class="icone_mala" src="../assets/mala-de-viagem.png" alt="Ir para cola"  />
+            <img title="Cola" class="icone_mala" src="../assets/mala-de-viagem.png" alt="Ir para cola"  />
         </div>
 
     </header>
