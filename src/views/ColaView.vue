@@ -26,6 +26,10 @@
             </div>
         </div>
     </div>
+    <div style="border:1px solid red;" class="botton-div">
+        <Button>Voltar</Button>
+        <Button>Imprimir</Button>
+    </div>
 </template>
 
 <script>
@@ -58,5 +62,10 @@ export default {
     text-align: center;
     vertical-align: center;
     
+}
+
+.botton-div {
+        display: flex;
+    justify-content: space-between;
 }
 </style>
