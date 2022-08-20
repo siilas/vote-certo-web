@@ -13,35 +13,34 @@
             Seus Candidatos
         </h2>
 
-        <div  class="card-size" style="border:1px solid red;">
+        <div  class="card-size">
             <img  class="img-size" src="../assets/cand1.png" /> 
-            <div style="border:1px solid green;">
+            <div>
                 <p class="card-text">NOME1</p>
                 <p class="card-text">SENADOR</p>
                 <p class="card-text">123</p>
             </div>
         </div>
         
-        <div class="card-size" style="border:1px solid red;">
+        <div class="card-size">
             <img  class="img-size" src="../assets/cand2.png" />
-            <div style="border:1px solid green;">
+            <div>
                 <p class="card-text">NOME1</p>
                 <p class="card-text">SENADOR</p>
                 <p class="card-text">123</p>
             </div>
         </div>
-        <div  class="card-size" style="border:1px solid red;">
+        <div  class="card-size">
             <img  class="img-size" src="../assets/cand3.png" />
-            <div style="border:1px solid green;">
+            <div>
                 <p class="card-text">NOME1</p>
                 <p class="card-text">SENADOR</p>
                 <p class="card-text">123</p>
             </div>
         </div>
     </div>
-    <div style="border:1px solid red;" class="botton-div">
-        <Button>Voltar</Button>
-        <Button>Imprimir</Button>
+    <div class="botton-div">
+        <button>Imprimir</button>
     </div>
 </template>
 
@@ -54,32 +53,32 @@ export default {
 <style scoped>
 
 .img-size {
-    height: 150px;
-    width:  150px;
-    float: left;
+  height: 150px;
+  width:  150px;
+  float: left;
 }
 
 .card-size {
-    width: 600px;
-    height: 150px;
-}
-
-.main-div {
-    /* flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-
+  width: 600px;
+  height: 150px;
+  margin: 32px 0;
 }
 
 .card-text {
-    text-align: center;
-    vertical-align: center;
+  text-align: center;
+  vertical-align: center;
     
 }
 
 .botton-div {
-        display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 6px 22px;
+  background-color: #BAFFB4; 
+  color: black;
+  border: 0;
 }
 </style>

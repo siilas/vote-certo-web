@@ -1,19 +1,23 @@
 <template>
     <header>
-        <div>
+        <div @click="goTo('/')">
             <img  class="logo_principal" src="../assets/Logo.png"  alt="Logo Vote Certo" />
         </div>
-        <div>
-            <img  class="icone_mala" src="../assets/icone2.png" alt="Ir para cola"  />
+        <div @click="goTo('/candidato-cola')" class="cola-box">
+            <img  class="icone_mala" src="../assets/mala-de-viagem.png" alt="Ir para cola"  />
         </div>
-
 
     </header>
 </template>
 
 <script>
 export default {
-    name: "Header"
+    name: "Header",
+    methods: {
+        goTo(route){
+            this.$router.push(route)
+        },
+    }
 }
 </script>
 
@@ -32,9 +36,12 @@ header {
 }
 
 .icone_mala {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
-
+.cola-box {
+    display: flex;
+    align-items: center;
+}
 </style>

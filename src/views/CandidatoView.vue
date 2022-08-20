@@ -138,7 +138,7 @@ export default {
 .mandatos > .row {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 32rem;
   margin-bottom: 6px;
 }
 
