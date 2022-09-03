@@ -2,7 +2,7 @@
   "name": "vote-certo",
   "version": "0.0.0",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
     "postinstall": "npm run build",
     "dev": "vite",
     "build": "vite build",
